@@ -1,8 +1,8 @@
 {
-    "name": "asteroid_launcher",
-    "preductname": "Asteroid Launcher",
-    "version": "1.4.4",
-    "description": "Launcher de Asteroid Studios",
+    "name": "brazuca_launcher",
+    "preductname": "Brazuca Launcher",
+    "version": "1.0.0",
+    "description": "Launcher de Brazuca Studios",
     "main": "src/app.js",
     "author": "IgnExotic",
     "url": "http://hypernw.fun/squidgames2",
@@ -33,6 +33,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/IgnExotiic/AsteroidLauncher.git"
+        "url": "git+https://github.com/IgnExotiic/BrazucaLauncher.git"
     }
 }
