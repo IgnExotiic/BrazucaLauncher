@@ -1,0 +1,38 @@
+{
+    "name": "asteroid_launcher",
+    "preductname": "Asteroid Launcher",
+    "version": "1.4.4",
+    "description": "Launcher de Asteroid Studios",
+    "main": "src/app.js",
+    "author": "IgnExotic",
+    "url": "http://hypernw.fun/squidgames2",
+    "engines": {
+        "node": "16.x.x"
+    },
+    "scripts": {
+        "start": "env-cmd electron .",
+        "build": "node build.js",
+        "dev": "nodemon --exec npm start"
+    },
+    "license": "CC0",
+    "nodemonConfig": {
+        "ext": "js,html,css"
+    },
+    "dependencies": {
+        "discord-rpc": "^4.0.1",
+        "electron-updater": "^5.0.1",
+        "minecraft-java-core": "^3.5.7",
+        "node-fetch": "^2.6.7"
+    },
+    "devDependencies": {
+        "electron": "^19.0.4",
+        "electron-builder": "^23.0.3",
+        "env-cmd": "^10.1.0",
+        "javascript-obfuscator": "^4.0.2",
+        "nodemon": "^2.0.16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IgnExotiic/AsteroidLauncher.git"
+    }
+}
