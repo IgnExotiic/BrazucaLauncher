@@ -1,11 +1,11 @@
 {
     "name": "brazuca_launcher",
     "preductname": "Brazuca Launcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Launcher de Brazuca Studios",
     "main": "src/app.js",
     "author": "IgnExotic",
-    "url": "http://hypernw.fun/squidgames2",
+    "url": "http://hyper.ovh/brazuca/squidgames",
     "engines": {
         "node": "16.x.x"
     },

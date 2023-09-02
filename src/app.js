@@ -1,4 +1,4 @@
-const clientId = '1138537550542295111';
+const clientId = '1147293482373877770';
 const DiscordRPC = require('discord-rpc');
 const RPC = new DiscordRPC.Client({ transport: 'ipc'});
 
@@ -7,19 +7,15 @@ DiscordRPC.register(clientId);
 async function setActivity() {
    if (!RPC) return;
    RPC.setActivity({
-       state: `Jugando a "SquidGames 2"`,
+       state: `Jugando a 'SquidGames 2'`,
        startTimestamp: Date.now(),
-       largeImageKey: 'asteroid',
-       largeImageText: `Asteroid Studios`,
+       largeImageKey: 'brazucalogo',
+       largeImageText: `Brazuca Studios`,
        instance: false,
        buttons: [
            {
-               label: `Discord Asteroid Studios`,
-               url: `https://discord.gg/8MTbZVA37Q`,
-           },
-           {
-               label: `Twitter Asteroid Studios`,
-               url: `https://twitter.com/AsteroidStudiio`,
+               label: `Discord Brazuca Studios`,
+               url: `https://discord.gg/WpTmSMDuwH`,
            }
        ]
    });

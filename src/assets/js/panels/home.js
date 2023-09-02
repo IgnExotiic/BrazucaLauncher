@@ -191,7 +191,7 @@ class Home {
 
             launch.on('patch', patch => {
                 console.log(patch);
-                info.innerHTML = `Patch en cours...`
+                info.innerHTML = `Iniciando...`
             });
 
             launch.on('data', (e) => {
@@ -250,13 +250,13 @@ class Home {
             changePanel('panelSkin');
         });
         document.querySelector('.Discord').addEventListener('click', () => {
-            this.openlink('https://discord.gg/8MTbZVA37Q');
+            this.openlink('https://discord.gg/WpTmSMDuwH');
         })
         document.querySelector('.Twitter').addEventListener('click', () => {
-            this.openlink('https://twitter.com/AsteroidStudiio');
+            this.openlink('https://twitter.com');
         })
         document.querySelector('.Youtube').addEventListener('click', () => {
-            this.openlink('https://www.youtube.com/@AsteroidStudiios');
+            this.openlink('https://www.youtube.com');
         })
     }
 
